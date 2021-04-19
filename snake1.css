@@ -1,0 +1,43 @@
+
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 2em;
+    padding-top: 50px;
+    width 100%;
+    font-family: Georgia;
+}
+
+body {
+    text-align: center;
+    background: rgb(63,94,251);
+    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(72,251,237,1) 100%);
+    );
+}
+
+
+//*also tried with the old snake pic in the background but it wasn't that good looking:
+body {
+    text-align: center;
+    background-image: url(photo.jpg);
+    background-color: #9535e4;
+    background-blend-mode: screen;
+}
+*//
+
+
+//*
+.image {
+    
+    background: url(images/snakePicture.png);
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1; 
+}
+
+*//
